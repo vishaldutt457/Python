@@ -140,6 +140,8 @@ data1={"r1","r2","r3","r4"}
 data1.add("helsinki")
 print(data1)
 
+#result------------   {'r4', 'helsinki', 'r1', 'r3', 'r2'}
+
 
 ################## update Method------
 
@@ -147,6 +149,8 @@ print(data1)
 data1={"r1","r2","r3","r4"}
 data1.update({"helsinki","tokyo","berlin"})
 print(data1)
+
+#result------------   {'berlin', 'r1', 'helsinki', 'r4', 'r3', 'tokyo', 'r2'}
 
 
 ################## remove/discard Method------
@@ -156,6 +160,7 @@ data1={"r1","r2","r3","r4"}
 data1.discard("r3")
 print(data1)
 
+#result------------   {'r1', 'r2', 'r4'}
 
 ################## pop Method------
 
@@ -164,12 +169,16 @@ data1={"r1","r2","r3","r4"}
 data1.pop()
 print(data1)
 
+#result------------   {'r3', 'r2', 'r4'}
+
 
 ################## clear Method------
 
 data1={"r1","r2","r3","r4"}
 data1.clear()
 print(data1)
+
+#result------------   set()
 
 
 
